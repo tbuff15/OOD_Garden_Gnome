@@ -1,3 +1,9 @@
+---
+tags: kids, oo
+languages: ruby
+level: 1
+type: lab
+---
 #Meet the O.O.G.G.s
 <img src="http://www.curiousinkling.com/gnome/img/Gnome-Shirts.jpg">
 
