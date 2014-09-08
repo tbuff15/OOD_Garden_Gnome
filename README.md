@@ -1,4 +1,5 @@
 #Meet the O.O.G.G.s
+<img src="http://www.curiousinkling.com/gnome/img/Gnome-Shirts.jpg">
 
 The O.O.G.Gs are the *Object Oriented Garden Gnomes*. You don't want to mess with them, because they're the meanest, toughest, gnomiest gnomes in town.
 
