@@ -19,7 +19,7 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 
   a. Create another instance of `GardenGnome` and set it's name to "James the Jerk" and it's age to 3421.
 
-4. Little gnome fact: Some garden gnomes are allergic to gluten. Create an attribute `gluten_allergy?` using a reader and writer method.
+4. Little gnome fact: Some garden gnomes are allergic to gluten. Create an attribute `gluten_allergy` using a reader and writer method.
 
   a. Create another instance of `GardenGnome` and set it's name to "Alfed the Abhorrent" and it's age to 579. Set it's gluten_allergy attribute to true (Alfred has terrible allergies).
 
