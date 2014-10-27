@@ -1,3 +1,9 @@
+---
+tags: kids, oo
+languages: ruby
+level: 1
+type: lab
+---
 #Meet the O.O.G.G.s
 <img src="http://www.curiousinkling.com/gnome/img/Gnome-Shirts.jpg">
 
@@ -8,24 +14,20 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 #Instructions
 
 1. Create a class called `GardenGnome`
-
-  a. Create a new instance of the `GardenGnome` class and assign it to the variable gnome1.
+a. Create a new instance of the `GardenGnome` class and assign it to the variable gnome1.
 
 2. Garden gnomes have names. Add a reader and a writer method for name.
-
-  a. Create another instance of `GardenGnome` and set it's name to "Walter the Worst". 
+a. Create another instance of `GardenGnome` and set it's name to "Walter the Worst". 
 
 3. Garden gnomes also have ages (They can live to 4000 years, in fact). Add a reader and a writer method for age.
-
-  a. Create another instance of `GardenGnome` and set it's name to "James the Jerk" and it's age to 3421.
+a. Create another instance of `GardenGnome` and set it's name to "James the Jerk" and it's age to 3421.
 
 4. Little gnome fact: Some garden gnomes are allergic to gluten. Create an attribute `gluten_allergy` using a reader and writer method.
-
-  a. Create another instance of `GardenGnome` and set it's name to "Alfed the Abhorrent" and it's age to 579. Set it's gluten_allergy attribute to true (Alfred has terrible allergies).
+a. Create another instance of `GardenGnome` and set it's name to "Alfed the Abhorrent" and it's age to 579. Set it's gluten_allergy attribute to true (Alfred has terrible allergies).
 
 5. Everyone gnows that that gnomes are all born evil. As such, create an initialize method which sets `@personality = "evil"`  Create a reader for the personality attribute (but no writer, because once an evil gnome, always an evil gnome).
 
-6. Add an argument to your initialize method called `hat_color` and then use the argument inside the initialize method to set a gnome's hat color at the moment that it is created (using `.new`). Create a `hat_color` reader and writer to access this attribute.
+6. Add an argument to your initialize method called `hat_color` and then use the argument inside the initialize method to set a gnome's hat color at the moment that it is created (using `.new`). If the user doesn't give a hat color in the argument, it should default to 'red'. Create a `hat_color` reader and writer to access this attribute.
 
 7. Gnomes can take many evil actions. One of them is destroying the trees in a garden by chewing them up. Create a method `gnaw` that, when called, puts "Gnawing on a tree!!!"
 

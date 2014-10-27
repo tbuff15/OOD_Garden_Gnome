@@ -53,6 +53,7 @@ describe "Garden Gnome" do
     intro_gnome.name = "Frankie the Frightening"
     output = capture_stdout { intro_gnome.introduce_self }
     expect(output).to eq("Hello humans, my name is Frankie the Frightening, I am 324 years old, and you'll rue the day you crossed me!\n")
+
   end
 
 end
