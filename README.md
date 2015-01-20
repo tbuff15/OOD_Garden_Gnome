@@ -20,13 +20,12 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 8. Create another action method called `shout` that puts "GNARLY!" when called.
 9. Create an action called `introduce_self` that puts "Hello humans, my name is _________, I am _____ years old, and you'll rue the day you crossed me!". Blanks should be filled in with the gnome's name and age.
 
-Once you've gotten all the rspec tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
+Once you've gotten all the rspec tests to pass, practice creating instances of the `GardenGnome` class by following these instructions: <img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="400px" align="right" hspace="10">
 
 1. Create a new instance of the `GardenGnome` class and assign it to the variable `gnome1`.
 2. Create another instance of `GardenGnome` and set it's name to "Walter the Worst".
 3. Create another instance of `GardenGnome` and set it's name to "James the Jerk" and its age to 3421.
 4. Create another instance of `GardenGnome` and set it's name to "Alfed the Abhorrent" and its age to 579. Set its gluten_allergy attribute to true. (Alfred has terrible allergies.)
 
-<img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="400px">
 
 
