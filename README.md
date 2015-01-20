@@ -21,7 +21,7 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 9. Create an action called `introduce_self` that puts "Hello humans, my name is _________, I am _____ years old, and you'll rue the day you crossed me!". Blanks should be filled in with the gnome's name and age.
 
 ### Getting More In The Gnome
-<img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="200px" align="left" hstyle="padding-right: 50px">Once you've gotten all the rspec tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
+<img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="200px" align="left" style="padding-right: 50px">Once you've gotten all the rspec tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
 
 1. Create a new instance of the `GardenGnome` class and assign it to the variable `gnome1`.
 2. Create another instance of `GardenGnome` and set it's name to "Walter the Worst".
