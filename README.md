@@ -4,15 +4,12 @@ languages: ruby
 level: 1
 type: lab
 ---
-#Meet the O.O.G.G.s
-<img src="http://www.curiousinkling.com/gnome/img/Gnome-Shirts.jpg">
+###Meet the O.O.G.G.s
+<img src="https://after-school-assets.s3.amazonaws.com/gnomies.jpg" width="200px" align="right" hspace="10"> The O.O.G.Gs are the *Object Oriented Garden Gnomes*. You don't want to mess with them, because they're the meanest, toughest, gnomiest gnomes in town.
 
-The O.O.G.Gs are the *Object Oriented Garden Gnomes*. You don't want to mess with them, because they're the meanest, toughest, gnomiest gnomes in town.
+We're going to build a Garden Gnome class so that we can make individual instances of Garden Gnomes that can terrorize front lawns around the neighborhood. Open the file `garden_gnome.rb` and follow these instructions. Run `rspec` after making changes to make sure you're on the right track. Try to get your rspec tests to all pass!
 
-We're going to build a Garden Gnome class so that we can make individual instances of Garden Gnomes that can terrorize front lawns around the neighborhood. Open the file `garden_gnome.rb` and follow these instructions. Run rspec after making changes to make sure you're on the right track. Try to get your rspec tests to all pass!
-
-#Instructions
-
+###Instructions
 1. Create a class called `GardenGnome`
 a. Create a new instance of the `GardenGnome` class and assign it to the variable gnome1.
 
