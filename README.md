@@ -5,7 +5,7 @@ level: 1
 type: lab
 ---
 ###Meet the O.O.G.G.s
-<img src="https://after-school-assets.s3.amazonaws.com/gnomies.jpg" width="300px" align="right" hspace="10"> The O.O.G.Gs are the *Object Oriented Garden Gnomes*. You don't want to mess with them, because they're the meanest, toughest, gnomiest gnomes in town.
+<img src="https://after-school-assets.s3.amazonaws.com/gnomies.jpg" width="300px" align="right" hspace="5"> The O.O.G.Gs are the *Object Oriented Garden Gnomes*. You don't want to mess with them, because they're the meanest, toughest, gnomiest gnomes in town.
 
 We're going to build a Garden Gnome class so that we can make individual instances of Garden Gnomes that can terrorize front lawns around the neighborhood. Open the file `garden_gnome.rb` and follow these instructions. Run `rspec` after completing each step of the instructions to make sure you're on the right track. Try to get each test to pass!
 
@@ -21,7 +21,7 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 9. Create an action called `introduce_self` that puts "Hello humans, my name is _________, I am _____ years old, and you'll rue the day you crossed me!". Blanks should be filled in with the gnome's name and age.
 
 ### Getting More In The Gnome
-<img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="200px" align="left" hstyle="PADDING-RIGHT: 50px">Once you've gotten all the rspec tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
+<img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="200px" align="left" hstyle="padding-right: 50px">Once you've gotten all the rspec tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
 
 1. Create a new instance of the `GardenGnome` class and assign it to the variable `gnome1`.
 2. Create another instance of `GardenGnome` and set it's name to "Walter the Worst".
