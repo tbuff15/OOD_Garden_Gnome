@@ -16,9 +16,9 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 4. Little gnome fact: Some garden gnomes are allergic to gluten. Create an attribute `gluten_allergy` using a reader and writer method.
 5. Everyone gnows that that gnomes are all born evil. As such, create an initialize method which sets `@personality = "evil"`  Create a reader for the personality attribute (but no writer, because once an evil gnome, always an evil gnome).
 6. Add an argument to your initialize method called `hat_color` and then use the argument inside the initialize method to set a gnome's hat color at the moment that it is created (using `.new`). If the user doesn't give a hat color in the argument, it should default to 'red'. Create a `hat_color` reader and writer to access this attribute.
-7. Gnomes can take many evil actions. One of them is destroying the trees in a garden by chewing them up. Create a method `gnaw` that, when called, puts "Gnawing on a tree!!!"
-8. Create another action method called `shout` that puts "GNARLY!!!" when called.
-9. Create an action called `introduce_self` that puts "Hello humans, my name is _________, I am _____ years old, and you'll rue the day you crossed me!". Blanks should be filled in with the gnome's name and age.
+7. Gnomes can take many evil actions. One of them is destroying the trees in a garden by chewing them up. Create a method `gnaw` that, when called, returns the value of "Gnawing on a tree!!!"
+8. Create another action method called `shout` that returns the value of "GNARLY!!!" when called.
+9. Create an action called `introduce_self` that returns the value of "Hello humans, my name is _________, I am _____ years old, and you'll rue the day you crossed me!". Blanks should be filled in with the gnome's name and age.
 
 ### Getting More In The Gnome
 <img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="200px" align="right" hspace="10">Once you've gotten all the learn tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
