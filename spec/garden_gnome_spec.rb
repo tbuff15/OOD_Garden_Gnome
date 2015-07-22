@@ -37,23 +37,19 @@ describe "Garden Gnome" do
 
   it "gnaws on trees" do
     gnawing_gnome = GardenGnome.new
-    output = capture_stdout { gnawing_gnome.gnaw }
-    expect(output).to eq("Gnawing on a tree!!!\n")
+    expect(gnawing_gnome.gnaw).to eq("Gnawing on a tree!!!")
   end
 
   it "shouts gnarly" do
     shouting_gnome = GardenGnome.new
-    output = capture_stdout { shouting_gnome.shout }
-    expect(output).to eq("GNARLY!!!\n")
+    expect(shouting_gnome.shout).to eq("GNARLY!!!")
   end
 
   it "introduces itself to humanfolk" do
     intro_gnome = GardenGnome.new
     intro_gnome.age = 324
     intro_gnome.name = "Frankie the Frightening"
-    output = capture_stdout { intro_gnome.introduce_self }
-    expect(output).to eq("Hello humans, my name is Frankie the Frightening, I am 324 years old, and you'll rue the day you crossed me!\n")
-
+    expect(intro_gnome.introduce_self).to eq("Hello humans, my name is Frankie the Frightening, I am 324 years old, and you'll rue the day you crossed me!")
   end
 
 end
