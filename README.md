@@ -1,9 +1,4 @@
----
-tags: kids, oo
-languages: ruby
-level: 1
-type: lab
----
+
 ###Meet the O.O.G.G.s
 <img src="https://after-school-assets.s3.amazonaws.com/gnomies.jpg" width="300px" align="right" hspace="5"> The O.O.G.Gs are the *Object Oriented Garden Gnomes*. You don't want to mess with them, because they're the meanest, toughest, gnomiest gnomes in town.
 
