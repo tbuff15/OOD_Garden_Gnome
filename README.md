@@ -25,3 +25,5 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 
 
 
+
+<a href='https://learn.co/lessons/hs-garden-gnome-oo-lab' data-visibility='hidden'>View this lesson on Learn.co</a>
