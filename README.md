@@ -15,6 +15,28 @@ We're going to build a Garden Gnome class so that we can make individual instanc
 8. Create another action method called `shout` that returns the value of "GNARLY!!!" when called.
 9. Create an action called `introduce_self` that returns the value of "Hello humans, my name is _________, I am _____ years old, and you'll rue the day you crossed me!". Blanks should be filled in with the gnome's name and age.
 
+### Passing Tests
+Your GardenGnome class will have to built very specifically to pass the tests! 
+
+What are these tests I'm speaking of? Why it's a little thing call RSPEC!
+RSPEC is testing framework, made from Ruby, that is used professionally while building applications. When changes are made or if new features are added to a project, automated tests can be run to ensure that the changes did not cause anything to break. Running automated tests is significantly more efficient than manually checking everything yourself. Also, it's more accurate! Win win.
+
+We are going to get a taste of what it's like develop having to meet the expectations of tests!
+
+#### Get Started Running Your Tests
+
+First we need to install RSPEC by going to our Terminal and entering: gem install rspec
+
+Then we should run the tests to see what they are expecting! In terminal, enter: rspec spec/garden_gnome_spec.rb
+(This command is a lot like running a ruby file in termainal, only we use rspec instead and then give it the path to the name of the file.)
+
+Now you'll see a whole mess of code thrown at you and red text glaring at you with all your failures. That's RSPEC for you. 
+Now you goal is to start with the very first item being tested (at the very top of your failure list) and see what it is asking and what it is expecting. 
+
+Note: it can also be helpful to go inside the the rspec file and see what the tests are asking there. Be prepared, there is going to be a lot of new and unfamilair syntax. After giving it a good look, it should be more intuitive to navigate through all those expectations!
+
+
+
 ### Getting More In The Gnome
 <img src="https://after-school-assets.s3.amazonaws.com/gnome-day.jpg" width="200px" align="right" hspace="10">Once you've gotten all the learn tests to pass, practice creating instances of the `GardenGnome` class by following these instructions:
 
